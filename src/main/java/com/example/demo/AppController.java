@@ -24,6 +24,13 @@ public class AppController {
 	}
 	
 	
+	@GetMapping("register")
+	public String getWelcom() {
+		
+		return "Welcome to register page";
+		
+	}
+	
 	
 
 }
