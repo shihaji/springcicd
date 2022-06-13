@@ -2,10 +2,7 @@ version: 0.2
 
 phases:
 
-  pre_build:
-    commands:
-    - echo in prebuild phase
-  
+ 
   build:
     commands:
     - echo in build phase
