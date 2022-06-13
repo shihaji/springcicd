@@ -10,7 +10,7 @@ public class AppController {
 	@GetMapping("home")
 	public String getHome() {
 		
-		return "hello from pipeline";
+		return "hello from my home page";
 		
 	}
 	
