@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+
+  pre_build:
+    commands:
+    - echo in prebuild phase
+  
+  build:
+    commands:
+    - echo in build phase
+    - mvn clean package
+  
+  post_build:
+    commands:
+    - echo in post build phase
+
+artifacts:
+  files:
+  - target/springcicd.jar
+  
+  discard-paths: yes           
